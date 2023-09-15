@@ -3,6 +3,7 @@ using ListaTareas.View;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
@@ -36,8 +37,17 @@ namespace ListaTareas.ViewModel
         public ObservableCollection<ToDoModel> ToDoItems
         {
             get { return _toDoItems; }
-            set { SetProperty(ref _toDoItems, value); }
+            set
+            {
+                _toDoItems = value;
+                OnPropertyChanged();
+                // Actualiza la propiedad IsListEmpty cada vez que cambia la lista
+                OnPropertyChanged(nameof(IsListEmpty));
+            }
         }
+
+        // Esta propiedad se vincula al Label
+        public bool IsListEmpty => (ToDoItems == null || !ToDoItems.Any());
         #endregion
 
         #region PROCESOS

@@ -11,7 +11,7 @@
     </NavigationPage.TitleView>
     <ContentPage.Content>
         <StackLayout VerticalOptions="FillAndExpand">
-            <Entry FontFamily="OpenSans" VerticalOptions="StartAndExpand" FontSize="16" Margin="20"
+            <Entry Placeholder="Escriba una tarea" FontFamily="OpenSans" VerticalOptions="StartAndExpand" FontSize="16" Margin="20"
                    Keyboard="Text" Text="{Binding Tarea}">
                 <!-- Adjuntamos nuestro comportamiento personalizado al Entry -->
                 <Entry.Behaviors>
