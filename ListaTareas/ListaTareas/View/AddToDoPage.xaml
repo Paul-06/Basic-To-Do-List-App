@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ListaTareas.View.AddToDoPage"
+             xmlns:local="clr-namespace:ListaTareas.Behavior">
+             <!-- Definimos el espacio de nombres para nuestro comportamiento personalizado -->
+    <NavigationPage.TitleView>
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Start">
+            <Label Text="Agregar Tarea" FontFamily="OpenSansBold" TextColor="#fff" FontSize="24"/>
+        </StackLayout>
+    </NavigationPage.TitleView>
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="FillAndExpand">
+            <Entry FontFamily="OpenSans" VerticalOptions="StartAndExpand" FontSize="16" Margin="20"
+                   Keyboard="Text" Text="{Binding Tarea}">
+                <!-- Adjuntamos nuestro comportamiento personalizado al Entry -->
+                <Entry.Behaviors>
+                    <!-- Usamos el espacio de nombres 'local' para referenciar nuestro comportamiento TrimOnUnfocusBehavior -->
+                    <local:TrimOnUnfocusBehavior />
+                </Entry.Behaviors>
+            </Entry>
+            <Button FontFamily="OpenSansBold" VerticalOptions="End" HorizontalOptions="Center" CornerRadius="10"
+                   Text="Guardar" TextColor="#fff" BackgroundColor="#363636" FontSize="20" Margin="12" Command="{Binding SaveToDoCommand}"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
