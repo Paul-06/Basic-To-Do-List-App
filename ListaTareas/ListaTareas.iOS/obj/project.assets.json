@@ -1876,11 +1876,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jeanv\\source\\repos\\ListaTareas\\ListaTareas\\ListaTareas.iOS\\ListaTareas.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\jeanv\\source\\repos\\Basic-To-Do-List-App\\ListaTareas\\ListaTareas.iOS\\ListaTareas.iOS.csproj",
       "projectName": "ListaTareas.iOS",
-      "projectPath": "C:\\Users\\jeanv\\source\\repos\\ListaTareas\\ListaTareas\\ListaTareas.iOS\\ListaTareas.iOS.csproj",
+      "projectPath": "C:\\Users\\jeanv\\source\\repos\\Basic-To-Do-List-App\\ListaTareas\\ListaTareas.iOS\\ListaTareas.iOS.csproj",
       "packagesPath": "C:\\Users\\jeanv\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jeanv\\source\\repos\\ListaTareas\\ListaTareas\\ListaTareas.iOS\\obj\\",
+      "outputPath": "C:\\Users\\jeanv\\source\\repos\\Basic-To-Do-List-App\\ListaTareas\\ListaTareas.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1901,8 +1901,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\jeanv\\source\\repos\\ListaTareas\\ListaTareas\\ListaTareas\\ListaTareas.csproj": {
-              "projectPath": "C:\\Users\\jeanv\\source\\repos\\ListaTareas\\ListaTareas\\ListaTareas\\ListaTareas.csproj"
+            "C:\\Users\\jeanv\\source\\repos\\Basic-To-Do-List-App\\ListaTareas\\ListaTareas\\ListaTareas.csproj": {
+              "projectPath": "C:\\Users\\jeanv\\source\\repos\\Basic-To-Do-List-App\\ListaTareas\\ListaTareas\\ListaTareas.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Zk/PSGWzgI+ERkB3f4VLUrSyJfmHwXBDWQMpJQNEj3fziQ3krebYfL2RD2YEGviqqVA2orPLJpHGQt6oLakyKw==",
+  "dgSpecHash": "JvIrJcQ3kRLxibFsk+sCw5anlQs8/Y2JFzyMlg1JM7ilD/um3elMTdiS4N6+UV/9tY69NRebF8+v+k6gDp8ULQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jeanv\\source\\repos\\ListaTareas\\ListaTareas\\ListaTareas.iOS\\ListaTareas.iOS.csproj",
+  "projectFilePath": "C:\\Users\\jeanv\\source\\repos\\Basic-To-Do-List-App\\ListaTareas\\ListaTareas.iOS\\ListaTareas.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jeanv\\.nuget\\packages\\sqlite-net-pcl\\1.8.116\\sqlite-net-pcl.1.8.116.nupkg.sha512",
     "C:\\Users\\jeanv\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.4\\sqlitepclraw.bundle_green.2.0.4.nupkg.sha512",

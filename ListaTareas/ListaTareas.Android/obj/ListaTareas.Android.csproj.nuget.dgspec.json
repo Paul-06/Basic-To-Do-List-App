@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jeanv\\source\\repos\\ListaTareas\\ListaTareas\\ListaTareas.Android\\ListaTareas.Android.csproj": {}
+    "C:\\Users\\jeanv\\source\\repos\\Basic-To-Do-List-App\\ListaTareas\\ListaTareas.Android\\ListaTareas.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jeanv\\source\\repos\\ListaTareas\\ListaTareas\\ListaTareas.Android\\ListaTareas.Android.csproj": {
+    "C:\\Users\\jeanv\\source\\repos\\Basic-To-Do-List-App\\ListaTareas\\ListaTareas.Android\\ListaTareas.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jeanv\\source\\repos\\ListaTareas\\ListaTareas\\ListaTareas.Android\\ListaTareas.Android.csproj",
+        "projectUniqueName": "C:\\Users\\jeanv\\source\\repos\\Basic-To-Do-List-App\\ListaTareas\\ListaTareas.Android\\ListaTareas.Android.csproj",
         "projectName": "ListaTareas.Android",
-        "projectPath": "C:\\Users\\jeanv\\source\\repos\\ListaTareas\\ListaTareas\\ListaTareas.Android\\ListaTareas.Android.csproj",
+        "projectPath": "C:\\Users\\jeanv\\source\\repos\\Basic-To-Do-List-App\\ListaTareas\\ListaTareas.Android\\ListaTareas.Android.csproj",
         "packagesPath": "C:\\Users\\jeanv\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jeanv\\source\\repos\\ListaTareas\\ListaTareas\\ListaTareas.Android\\obj\\",
+        "outputPath": "C:\\Users\\jeanv\\source\\repos\\Basic-To-Do-List-App\\ListaTareas\\ListaTareas.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid13.0": {
             "projectReferences": {
-              "C:\\Users\\jeanv\\source\\repos\\ListaTareas\\ListaTareas\\ListaTareas\\ListaTareas.csproj": {
-                "projectPath": "C:\\Users\\jeanv\\source\\repos\\ListaTareas\\ListaTareas\\ListaTareas\\ListaTareas.csproj"
+              "C:\\Users\\jeanv\\source\\repos\\Basic-To-Do-List-App\\ListaTareas\\ListaTareas\\ListaTareas.csproj": {
+                "projectPath": "C:\\Users\\jeanv\\source\\repos\\Basic-To-Do-List-App\\ListaTareas\\ListaTareas\\ListaTareas.csproj"
               }
             }
           }
@@ -54,14 +54,14 @@
         }
       }
     },
-    "C:\\Users\\jeanv\\source\\repos\\ListaTareas\\ListaTareas\\ListaTareas\\ListaTareas.csproj": {
+    "C:\\Users\\jeanv\\source\\repos\\Basic-To-Do-List-App\\ListaTareas\\ListaTareas\\ListaTareas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jeanv\\source\\repos\\ListaTareas\\ListaTareas\\ListaTareas\\ListaTareas.csproj",
+        "projectUniqueName": "C:\\Users\\jeanv\\source\\repos\\Basic-To-Do-List-App\\ListaTareas\\ListaTareas\\ListaTareas.csproj",
         "projectName": "ListaTareas",
-        "projectPath": "C:\\Users\\jeanv\\source\\repos\\ListaTareas\\ListaTareas\\ListaTareas\\ListaTareas.csproj",
+        "projectPath": "C:\\Users\\jeanv\\source\\repos\\Basic-To-Do-List-App\\ListaTareas\\ListaTareas\\ListaTareas.csproj",
         "packagesPath": "C:\\Users\\jeanv\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jeanv\\source\\repos\\ListaTareas\\ListaTareas\\ListaTareas\\obj\\",
+        "outputPath": "C:\\Users\\jeanv\\source\\repos\\Basic-To-Do-List-App\\ListaTareas\\ListaTareas\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

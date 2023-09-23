@@ -12,6 +12,7 @@ namespace ListaTareas.ViewModel
     public class VMAddToDo : VMBase
     {
         #region VARIABLES
+        private string _pageTitle;
         private string _tarea;
         private bool _toEdit = false; // Bandera para verificar si se trata de una edición
         private int _toDoId; // Agregamos un campo para el id de la tarea a editar
@@ -25,12 +26,19 @@ namespace ListaTareas.ViewModel
 
             // Usamos un operador ternario para asignar el valor de _toEdit y _toDoId según si se pasó una tarea a editar o no.
             _toEdit = toDoToEdit != null;
+            _pageTitle = _toEdit ? "Editar tarea" : "Agregar tarea";
             _toDoId = _toEdit ? toDoToEdit.Id : 0;
             Tarea = _toEdit ? toDoToEdit.Description : "";
         }
         #endregion
 
         #region OBJETOS
+        public string PageTitle
+        {
+            get { return _pageTitle; }
+            set { SetProperty(ref _pageTitle, value); }
+        }
+
         public string Tarea
         {
             get { return _tarea; }

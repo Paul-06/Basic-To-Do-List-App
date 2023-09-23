@@ -3665,11 +3665,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jeanv\\source\\repos\\ListaTareas\\ListaTareas\\ListaTareas.Android\\ListaTareas.Android.csproj",
+      "projectUniqueName": "C:\\Users\\jeanv\\source\\repos\\Basic-To-Do-List-App\\ListaTareas\\ListaTareas.Android\\ListaTareas.Android.csproj",
       "projectName": "ListaTareas.Android",
-      "projectPath": "C:\\Users\\jeanv\\source\\repos\\ListaTareas\\ListaTareas\\ListaTareas.Android\\ListaTareas.Android.csproj",
+      "projectPath": "C:\\Users\\jeanv\\source\\repos\\Basic-To-Do-List-App\\ListaTareas\\ListaTareas.Android\\ListaTareas.Android.csproj",
       "packagesPath": "C:\\Users\\jeanv\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jeanv\\source\\repos\\ListaTareas\\ListaTareas\\ListaTareas.Android\\obj\\",
+      "outputPath": "C:\\Users\\jeanv\\source\\repos\\Basic-To-Do-List-App\\ListaTareas\\ListaTareas.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -3690,8 +3690,8 @@
       "frameworks": {
         "monoandroid13.0": {
           "projectReferences": {
-            "C:\\Users\\jeanv\\source\\repos\\ListaTareas\\ListaTareas\\ListaTareas\\ListaTareas.csproj": {
-              "projectPath": "C:\\Users\\jeanv\\source\\repos\\ListaTareas\\ListaTareas\\ListaTareas\\ListaTareas.csproj"
+            "C:\\Users\\jeanv\\source\\repos\\Basic-To-Do-List-App\\ListaTareas\\ListaTareas\\ListaTareas.csproj": {
+              "projectPath": "C:\\Users\\jeanv\\source\\repos\\Basic-To-Do-List-App\\ListaTareas\\ListaTareas\\ListaTareas.csproj"
             }
           }
         }

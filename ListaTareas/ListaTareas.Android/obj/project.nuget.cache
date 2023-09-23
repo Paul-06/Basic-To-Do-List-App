@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "E3+ngJ1BsOWgYvKBFEOiNz/C6JZ+iGLGZCVZhlbegi6rhm17aDgIMUSXMQF1FLJuIMaK/a1DLKUg87IGIXLDSQ==",
+  "dgSpecHash": "RI/dPXFyu2iVnr9fQDiZX7Z1CUv3OVgBGROn4JXc1DdtilWEviPPU9euB6gnS1FZi8l4Dm0UImeUjQvetbXwUQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jeanv\\source\\repos\\ListaTareas\\ListaTareas\\ListaTareas.Android\\ListaTareas.Android.csproj",
+  "projectFilePath": "C:\\Users\\jeanv\\source\\repos\\Basic-To-Do-List-App\\ListaTareas\\ListaTareas.Android\\ListaTareas.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jeanv\\.nuget\\packages\\sqlite-net-pcl\\1.8.116\\sqlite-net-pcl.1.8.116.nupkg.sha512",
     "C:\\Users\\jeanv\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.4\\sqlitepclraw.bundle_green.2.0.4.nupkg.sha512",
