@@ -68,9 +68,17 @@ namespace ListaTareas.ViewModel
             catch (Exception ex)
             {
                 await DisplayAlert("Error", ex.Message, "Aceptar");
-            }
-            
+            }          
         }
+
+        // Update the To-Do Status (completed or not)
+        public async void CheckBoxChanged(ToDoModel toDoCompleted, bool isChecked)
+        {
+            if (toDoCompleted == null) return;
+            toDoCompleted.IsCompleted = isChecked;
+            await App.Context.UpdateToDoAsync(toDoCompleted);
+        }
+
 
         public async Task DeleteToDo(ToDoModel toDoToDelete)
         {

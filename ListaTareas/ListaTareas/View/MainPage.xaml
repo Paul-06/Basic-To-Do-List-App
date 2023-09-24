@@ -1,13 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:converters="clr-namespace:ListaTareas.Converter"
              x:Class="ListaTareas.View.MainPage"
              x:Name="MainPageView">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converters:StrikeThroughConverter x:Key="StrikeThroughConverter"/>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    
     <NavigationPage.TitleView>
         <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
             <Label Text="Mis Tareas" FontFamily="OpenSansBold" TextColor="#fff" FontSize="22"/>
         </StackLayout>
     </NavigationPage.TitleView>
+    
     <ContentPage.Content>
         <Grid VerticalOptions="FillAndExpand" BackgroundColor="#ededed">
             <ListView VerticalOptions="StartAndExpand" HasUnevenRows="True" ItemsSource="{Binding ToDoItems}" SelectionMode="None">
@@ -15,7 +24,11 @@
                     <DataTemplate>
                         <ViewCell>
                             <StackLayout Orientation="Horizontal" Padding="10" VerticalOptions="Center" HorizontalOptions="FillAndExpand">
-                                <Label HorizontalOptions="StartAndExpand" Text="{Binding Description}" FontFamily="OpenSans" FontSize="16"/>
+                                <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" VerticalOptions="Center">
+                                    <CheckBox x:Name="Completed" Color="#363636" IsChecked="{Binding IsCompleted}" CheckedChanged="Completed_CheckedChanged"/>
+                                    <Label Text="{Binding Description}" FontFamily="OpenSans" FontSize="16" VerticalTextAlignment="Center"
+                                           TextDecorations="{Binding IsCompleted, Converter={StaticResource StrikeThroughConverter}}"/>
+                                </StackLayout>
                                 <StackLayout Orientation="Horizontal" HorizontalOptions="End">
                                     <ImageButton Source="edit.png" Aspect="AspectFit" BackgroundColor="Transparent"
                                                  Command="{Binding Path=BindingContext.EditToDoCommand, Source={x:Reference Name=MainPageView}}"
